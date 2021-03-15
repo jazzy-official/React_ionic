@@ -5,9 +5,7 @@ import Image2 from "../assets/img/logo.png"
 import Header from "./Header";
 const ForgotPassword: React.FC=()=>(
     <IonContent>
-        <div>
-
-
+        
         <Header/>
             <div className="app-dashboard">
                 <div className="app-body">
@@ -36,7 +34,6 @@ const ForgotPassword: React.FC=()=>(
                     </div>
                 </div>
             </div>
-        </div>
     </IonContent>
 );
 export default ForgotPassword;
