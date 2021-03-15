@@ -531,7 +531,7 @@ a.get-started-btn {
     padding-left: 15px;
 }
 
-header.app-header {
+.app-header {
     width: 100%;
     position: fixed;
     top: 0;
@@ -540,7 +540,7 @@ header.app-header {
     max-width: 100%;
     margin: 0 auto;
     padding: 7px 0;
-    background-color: #2d3436;
+    background-color: black;
     z-index: 99999;
 }
 
@@ -588,8 +588,9 @@ header.app-header {
     float: left;
     background-color: #f8f9f9;
     position: relative;
-    margin-top: 63px;
+    padding-top: 63px;
     overflow: hidden;
+    min-height: 96vh;
 }
 
 .app-body.margin_top_0 {

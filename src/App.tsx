@@ -23,12 +23,14 @@ import './theme/variables.css';
 import Carousel from "./components/Carousel";
 import ForgotPassword from "./components/ForgotPassword";
 import Header from "./components/Header";
+import {HeaderTest} from "./components/HeaderTest";
 
 const App: React.FC = () => (
   <IonApp>
 
    {/*<Carousel/>*/}
    {/*<Header/>*/}
+   {/*<HeaderTest/>*/}
 <ForgotPassword/>
   </IonApp>
 );
