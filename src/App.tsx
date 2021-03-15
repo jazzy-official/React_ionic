@@ -3,6 +3,7 @@ import { IonApp, IonRouterOutlet } from '@ionic/react';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
+import "../src/assets/css/app.css"
 
 /* Basic CSS for apps built with Ionic */
 import '@ionic/react/css/normalize.css';
@@ -23,7 +24,9 @@ import Carousel from "./components/Carousel";
 
 const App: React.FC = () => (
   <IonApp>
+
    <Carousel/>
+
   </IonApp>
 );
 
