@@ -414,6 +414,8 @@ a.get-started-btn {
 .edit_profile .form-control:focus {
     border-color: #777777;
     box-shadow: none;;
+    background-color: white;
+    color: black;
 }
 
 .sumit_button {
@@ -535,7 +537,7 @@ header.app-header {
     top: 0;
     left: 0;
     right: 0;
-    max-width: 425px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 7px 0;
     background-color: #2d3436;

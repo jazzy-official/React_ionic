@@ -21,12 +21,15 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 import Carousel from "./components/Carousel";
+import ForgotPassword from "./components/ForgotPassword";
+import Header from "./components/Header";
 
 const App: React.FC = () => (
   <IonApp>
 
-   <Carousel/>
-
+   {/*<Carousel/>*/}
+   {/*<Header/>*/}
+<ForgotPassword/>
   </IonApp>
 );
 
