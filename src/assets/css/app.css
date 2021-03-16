@@ -256,7 +256,9 @@ a.get-started-btn {
     min-width: 300px;
     border: 1px solid #000;
 }
-
+.height100{
+    min-height: 100vh;
+}
 /************** Login Page*****************/
 .login_page {
     width: 100%;
@@ -323,7 +325,7 @@ a.get-started-btn {
 
 .already_account p,
 .already_account p a {
-    color: #ffffff;
+    color: #020D15;
 }
 
 .button_div a.btn-outline-primary.focus,
@@ -530,7 +532,10 @@ a.get-started-btn {
     color: #ffffff;
     padding-left: 15px;
 }
-
+.menu{
+    z-index: 999999;
+    position: fixed;
+}
 .app-header {
     width: 100%;
     position: fixed;
@@ -590,7 +595,7 @@ a.get-started-btn {
     position: relative;
     padding-top: 63px;
     overflow: hidden;
-    min-height: 96vh;
+    min-height: 100vh;
 }
 
 .app-body.margin_top_0 {
@@ -1600,7 +1605,7 @@ a.collapsed, .card-header a {
     padding-right: 0 !important;
 }
 
-.modal-dialog {
+.fdialog {
     max-width: 425px;
 
 }
