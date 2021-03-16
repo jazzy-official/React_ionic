@@ -414,7 +414,7 @@ a.get-started-btn {
 .edit_profile .form-control:focus {
     border-color: #777777;
     box-shadow: none;;
-    background-color: white;
+    background-color: lightblue;
     color: black;
 }
 
@@ -539,7 +539,7 @@ a.get-started-btn {
     right: 0;
     max-width: 100%;
     margin: 0 auto;
-    padding: 7px 0;
+    /*padding: 7px 0;*/
     background-color: black;
     z-index: 99999;
 }

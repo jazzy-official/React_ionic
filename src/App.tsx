@@ -22,16 +22,20 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 import Carousel from "./components/Carousel";
 import ForgotPassword from "./components/ForgotPassword";
-import Header from "./components/Header";
+import {Header} from "./components/Header";
 import {HeaderTest} from "./components/HeaderTest";
+import {Dashboard} from "./components/Dashboard";
+import EditProfile from "./components/EditProfile";
+import EmailSignup from "./components/EmailSignup";
 
 const App: React.FC = () => (
   <IonApp>
-
+    {/*<Dashboard/>*/}
+    {/*  <EditProfile/>*/}
+      <EmailSignup/>
    {/*<Carousel/>*/}
    {/*<Header/>*/}
-   {/*<HeaderTest/>*/}
-<ForgotPassword/>
+{/*<ForgotPassword/>*/}
   </IonApp>
 );
 
