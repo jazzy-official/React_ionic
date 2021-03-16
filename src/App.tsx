@@ -22,19 +22,28 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './theme/variables.css';
 import Carousel from "./components/Carousel";
 
+
 import Header from "./components/Header";
 
 import EmailSignup from "./components/EmailSignup";
 import Login from "./components/Login";
 
+import ForgotPassword from "./components/ForgotPassword";
+import {Header} from "./components/Header";
 import {HeaderTest} from "./components/HeaderTest";
+import {Dashboard} from "./components/Dashboard";
+import EditProfile from "./components/EditProfile";
+import EmailSignup from "./components/EmailSignup";
 
 
 const App: React.FC = () => (
   <IonApp>
-
+    {/*<Dashboard/>*/}
+    {/*  <EditProfile/>*/}
+      <EmailSignup/>
    {/*<Carousel/>*/}
    {/*<Header/>*/}
+
 
 {/*<EmailSignup/>*/}
 <Login/>
@@ -42,6 +51,7 @@ const App: React.FC = () => (
    {/*<HeaderTest/>*/}
 
 
+{/*<ForgotPassword/>*/}
   </IonApp>
 );
 
