@@ -17,10 +17,17 @@ import '@ionic/react/css/text-alignment.css';
 import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
-
-/* Theme variables */
+import 'bootstrap/dist/css/bootstrap.min.css'
+// /* Theme variables */
 import './theme/variables.css';
 import Carousel from "./components/Carousel";
+
+
+import Header from "./components/Header";
+
+import EmailSignup from "./components/EmailSignup";
+import Login from "./components/Login";
+
 import ForgotPassword from "./components/ForgotPassword";
 import {Header} from "./components/Header";
 import {HeaderTest} from "./components/HeaderTest";
@@ -30,6 +37,7 @@ import EmailSignup from "./components/EmailSignup";
 import Login from "./components/Login";
 import MyContents from "./components/MyContents";
 import ExamResult3 from "./components/ExamResult3_1";
+
 
 const App: React.FC = () => (
   <IonApp>
@@ -41,6 +49,14 @@ const App: React.FC = () => (
    {/*<Login/>*/}
    <ExamResult3/>
    {/*<Header/>*/}
+
+
+{/*<EmailSignup/>*/}
+<Login/>
+
+   {/*<HeaderTest/>*/}
+
+
 {/*<ForgotPassword/>*/}
   </IonApp>
 );

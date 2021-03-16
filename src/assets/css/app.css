@@ -327,6 +327,9 @@ a.get-started-btn {
 .already_account p a {
     color: #020D15;
 }
+.height{
+    height: 100%;
+}
 
 .button_div a.btn-outline-primary.focus,
 .button_div a.btn-outline-primary:focus,
@@ -346,6 +349,9 @@ a.get-started-btn {
 .input_div {
     text-align: left;
     margin-bottom: 15px;
+    color: black;
+    height: 100%;
+
 }
 
 .input_div label {
@@ -551,6 +557,7 @@ a.get-started-btn {
 
 .app-dashboard {
     width: 100%;
+    height: 100%;
 }
 
 .app-header-logo {
@@ -591,6 +598,7 @@ a.get-started-btn {
 .app-body {
     width: 100%;
     float: left;
+    min-height: 100vh;
     background-color: #f8f9f9;
     position: relative;
     padding-top: 63px;

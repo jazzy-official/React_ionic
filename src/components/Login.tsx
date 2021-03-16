@@ -1,3 +1,4 @@
+
 import React  from "react";
 import {IonContent, IonLabel, IonItem, IonInput} from "@ionic/react";
 import Image from "../assets/img/artboard_2.png"

@@ -1,3 +1,15 @@
+
+import React from "react";
+import {IonContent} from "@ionic/react";
+import "../assets/css/app.css"
+import Image from "../assets/img/artboard_2.png"
+
+const EmailSignup: React.FC = () => (
+    <IonContent>
+        <div>
+
+
+        <div className="loaded">
 import React, {useState} from "react";
 import {IonContent, IonLabel, IonItem, IonInput} from "@ionic/react";
 import {Header} from "./Header";
@@ -29,6 +41,7 @@ const EmailSignup: React.FC = () => (
                                         <span className="pt-2 float-right">
                                                 <a href="#">Forgot?</a>
                                         </span>
+
                                     </div>
                                 </div>
                                 <div className="input_div pt-3">
