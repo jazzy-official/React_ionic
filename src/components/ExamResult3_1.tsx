@@ -1,7 +1,8 @@
 import React,{useState}  from "react";
-import {IonButton, IonButtons, IonContent, IonHeader, IonModal, IonToolbar} from "@ionic/react";
+import {IonButton, IonButtons, IonContent, IonHeader, IonModal, IonToolbar,IonIcon} from "@ionic/react";
 import {Accordion, Card, Button, Modal} from "react-bootstrap";
 import {Header} from "./Header";
+import {chevronBackOutline} from "ionicons/icons"
 
 const ExamResult3: React.FC = () => {
     const [showModal, setShowModal] = useState(false);
@@ -75,30 +76,7 @@ const ExamResult3: React.FC = () => {
                                         Explanation
                                     </Button>
 
-                                    <IonModal isOpen={showModal} cssClass='my-custom-class'>
-                                        <IonHeader translucent>
-                                            <IonToolbar>
-                                                <IonButtons slot="start">
-                                                    <IonButton onClick={handleClose}>Close</IonButton>
-                                                </IonButtons>
-                                            </IonToolbar>
-                                        </IonHeader>
-                                        <div className="explanation_sec">
-                                            <ul>
-                                                <li>lie with their hill at the level of the 4th lumber vetebra</li>
-                                                <li>lie with their hill at the level of the 4th lumber vetebra</li>
-                                                <li>lie with their hill at the level of the 4th lumber vetebra</li>
-                                                <li>lie with their hill at the level of the 4th lumber vetebra</li>
-                                                <li>lie with their hill at the level of the 4th lumber vetebra</li>
-                                                <li>lie with their hill at the level of the 4th lumber vetebra</li>
-                                                <li>lie with their hill at the level of the 4th lumber vetebra</li>
-                                                <li>lie with their hill at the level of the 4th lumber vetebra</li>
-                                                <li>lie with their hill at the level of the 4th lumber vetebra</li>
-                                                <li>lie with their hill at the level of the 4th lumber vetebra</li>
-                                            </ul>
-                                        </div>
-                                        <IonButton color="dark" onClick={handleClose}>Close Modal</IonButton>
-                                    </IonModal>
+
                                 </div>
                             </Card.Body>
 
@@ -167,6 +145,32 @@ const ExamResult3: React.FC = () => {
                     </Card>
                 </Accordion>
             </div>
+
+            <IonModal isOpen={showModal} cssClass='my-custom-class'>
+                <IonHeader translucent>
+                    <IonToolbar>
+                        <IonButtons slot="start">
+                            <IonButton onClick={handleClose}><IonIcon icon={chevronBackOutline}></IonIcon>Back</IonButton>
+                        </IonButtons>
+                    </IonToolbar>
+                </IonHeader>
+                <div className="explanation_sec">
+                    <ul>
+                        <li>lie with their hill at the level of the 4th lumber vetebra</li>
+                        <li>lie with their hill at the level of the 4th lumber vetebra</li>
+                        <li>lie with their hill at the level of the 4th lumber vetebra</li>
+                        <li>lie with their hill at the level of the 4th lumber vetebra</li>
+                        <li>lie with their hill at the level of the 4th lumber vetebra</li>
+                        <li>lie with their hill at the level of the 4th lumber vetebra</li>
+                        <li>lie with their hill at the level of the 4th lumber vetebra</li>
+                        <li>lie with their hill at the level of the 4th lumber vetebra</li>
+                        <li>lie with their hill at the level of the 4th lumber vetebra</li>
+                        <li>lie with their hill at the level of the 4th lumber vetebra</li>
+                    </ul>
+                </div>
+                <div></div>
+                <div></div>
+            </IonModal>
         </IonContent>
     );
 };
