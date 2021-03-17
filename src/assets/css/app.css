@@ -1135,13 +1135,18 @@ ul.score_title li span.icon_right {
 .sub-categories-body.update_sub_category.topic_lists ul li .sub-category-item-content {
     padding: 10px 20px 10px 45px;
 }
-
+.footer {
+    position: fixed;
+    bottom: 0%;
+    justify-content : center;
+}
 .add_next_button {
-    margin: 50px 0 25px;
+    /*margin: 50px 0 25px;*/
+    /*margin-bottom: -16px;*/
 }
 
 .add_next_button ul {
-    padding: 0 15px;
+    /*padding: 0 15px;*/
     display: block;
 }
 
@@ -1157,11 +1162,17 @@ ul.score_title li span.icon_right {
     padding: 10px 15px;
     border: 1px solid #000000;
     display: block;
-    color: #777777;
+    color: #5D6D7E;
     min-width: 100px;
     text-align: center;
+    text-decoration: none;
 }
-
+.bars{
+    color: #5D6D7E;
+}
+.bars:hover{
+    color: #ffffff;
+}
 .add_next_button ul li a:hover {
     background-color: #ff6e63;
     color: #ffffff;
@@ -1268,7 +1279,7 @@ ul.score_title li span.icon_right {
 
 .add_next_button.exam_questinn_footer ul li a {
     padding: 10px 0px;
-    border: 1px solid #e4dcdc;
+    border: none;
 }
 
 .add_next_button.exam_questinn_footer ul li a.middle {
@@ -1281,10 +1292,10 @@ ul.score_title li span.icon_right {
 
 .exam_number_popup {
     background: #ffffff;
-    position: absolute;
+    position: relative;
     bottom: 0;
-    width: 280px;
-    height: auto;
+    width: 100%;
+    height: 100%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -1298,7 +1309,7 @@ ul.score_title li span.icon_right {
 
 .exam_number_popup ul {
     text-align: center;
-    padding: 20px 15px;
+    padding: 20px 50px;
     margin-top: 20px;
 }
 

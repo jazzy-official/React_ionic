@@ -30,6 +30,9 @@ import EmailSignup from "./components/EmailSignup";
 import Login from "./components/Login";
 import MyContents from "./components/MyContents";
 import ExamResult3 from "./components/ExamResult3_1";
+import {Footer} from "./components/Footer";
+import Slides1 from "./components/Slides";
+import ExamQuestionNumberModal from "./components/ExamQuestionNumberModal";
 
 const App: React.FC = () => (
   <IonApp>
@@ -39,7 +42,10 @@ const App: React.FC = () => (
    {/*<Carousel/>*/}
    {/*<MyContents/>*/}
    {/*<Login/>*/}
-   <ExamResult3/>
+   {/*<ExamResult3/>*/}
+   {/*<Footer/>*/}
+   <ExamQuestionNumberModal/>
+   {/*<Slides1/>*/}
    {/*<Header/>*/}
 {/*<ForgotPassword/>*/}
   </IonApp>
