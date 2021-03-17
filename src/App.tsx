@@ -34,6 +34,9 @@ import MyStats from "./components/MyStats";
 import MyStatSelfAsses from "./components/MyStatSelfAsses";
 import NotesCategories from "./components/NotesCategories";
 import NotesTopicList from "./components/NotesTopicList";
+import {Footer} from "./components/Footer";
+import Slides1 from "./components/Slides";
+import ExamQuestionNumberModal from "./components/ExamQuestionNumberModal";
 
 const App: React.FC = () => (
   <IonApp>
@@ -47,6 +50,9 @@ const App: React.FC = () => (
    {/*<MyContents/>*/}
    {/*<Login/>*/}
    {/*<ExamResult3/>*/}
+   {/*<Footer/>*/}
+   <ExamQuestionNumberModal/>
+   {/*<Slides1/>*/}
    {/*<Header/>*/}
    {/*<MyStats/>*/}
 {/*<ForgotPassword/>*/}
