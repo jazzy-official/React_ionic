@@ -545,7 +545,7 @@ a.get-started-btn {
     max-width: 100%;
     margin: 0 auto;
     /*padding: 7px 0;*/
-    background-color: black;
+    /*background-color: black;*/
     z-index: 99999;
 }
 
@@ -593,7 +593,8 @@ a.get-started-btn {
     float: left;
     background-color: #f8f9f9;
     position: relative;
-    padding-top: 63px;
+    padding-top: 30px;
+    top: auto;
     overflow: hidden;
     min-height: 100vh;
 }
@@ -768,7 +769,11 @@ a.get-started-btn {
 }
 
 .sub-categories-header {
-    padding: 20px;
+    padding-bottom: 20px;
+    padding-top: 44px;
+    padding-left: 20px;
+    padding-right: 20px;
+
     background: linear-gradient(to bottom, #ff9065 0%, #ff6262 100%);
     color: #fff;
     width: 100%;
@@ -783,6 +788,7 @@ a.get-started-btn {
 
 .sub-categories-header h6 {
     font-size: 20px;
+
     display: block;
     margin-bottom: 5px;
     margin-top: 20px;
@@ -790,6 +796,7 @@ a.get-started-btn {
 
 .sub-categories-header h5 {
     font-size: 28px;
+
     font-weight: 600;
     display: inline-block;
 }
@@ -846,7 +853,7 @@ a.next-btn {
 
 .sub-categories-body ul.sub-category-items li span.next-arrow {
     float: right;
-    line-height: 40px;
+    line-height:33px;
     color: #ff6e63;
 }
 
@@ -1423,7 +1430,7 @@ button.close {
     display: inline-block;
 }
 
-.self_assement_list_item .title_text_score {
+.self_assement_list_item . {
     display: inline-block;
 }
 

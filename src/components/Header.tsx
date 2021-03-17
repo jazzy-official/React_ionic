@@ -21,7 +21,7 @@ export const Header: React.FC = () => (
 
 
 
-        <div>
+        <div className="head">
             <IonMenu side="start" content-id="main-content" type="overlay" className="menu" >
                 <IonHeader>
                     <IonToolbar >

@@ -30,17 +30,25 @@ import EmailSignup from "./components/EmailSignup";
 import Login from "./components/Login";
 import MyContents from "./components/MyContents";
 import ExamResult3 from "./components/ExamResult3_1";
+import MyStats from "./components/MyStats";
+import MyStatSelfAsses from "./components/MyStatSelfAsses";
+import NotesCategories from "./components/NotesCategories";
+import NotesTopicList from "./components/NotesTopicList";
 
 const App: React.FC = () => (
   <IonApp>
+      {/*<MyStatSelfAsses/>*/}
+      <NotesCategories/>
     {/*<Dashboard/>*/}
+    {/*<NotesTopicList/>*/}
     {/*  <EditProfile/>*/}
     {/*  <EmailSignup/>*/}
    {/*<Carousel/>*/}
    {/*<MyContents/>*/}
    {/*<Login/>*/}
-   <ExamResult3/>
+   {/*<ExamResult3/>*/}
    {/*<Header/>*/}
+   {/*<MyStats/>*/}
 {/*<ForgotPassword/>*/}
   </IonApp>
 );

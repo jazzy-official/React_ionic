@@ -1,6 +1,5 @@
-import React, {useState} from "react";
-import {IonContent, IonLabel, IonItem, IonInput} from "@ionic/react";
-import {Header} from "./Header";
+import React from "react";
+import {IonContent,} from "@ionic/react";
 import Image from "../assets/img/artboard_2.png"
 
 const EmailSignup: React.FC = () => (
@@ -16,7 +15,7 @@ const EmailSignup: React.FC = () => (
                         <div className="sub_category">
                             <div className="edit_profile">
                                 <div className="man_image phone_image">
-                                    <img src={Image}/>
+                                    <img src={Image} alt="img"/>
                                 </div>
                                 <div className="signup_form">
                                     <div className="input_div">
@@ -39,7 +38,6 @@ const EmailSignup: React.FC = () => (
                                 </div>
                                 <div className="big_button_div signup sumit_button">
                                     <a className="big_button" style={{textDecoration: "none"}} href="#">LETS START</a>
-
                                 </div>
                             </div>
                         </div>
